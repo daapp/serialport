@@ -18,7 +18,7 @@ module System.Hardware.Serialport (
   ,StopBits(..)
   ,Parity(..)
   ,FlowControl(..)
-  ,SerialPort
+  ,SerialPort(..)
   -- * Configure port
   -- | You don't need the get or set functions, they are used by openSerial
   ,SerialPortSettings(..)
